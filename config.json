@@ -1,0 +1,22 @@
+{
+  "inbounds": [{
+    "port": 7860,
+    "protocol": "vless",
+    "settings": {
+      "clients": [{
+        "id": "e2d3c4b5-a6b7-c8d9-e0f1-a2b3c4d5e6f7"
+      }],
+      "decryption": "none"
+    },
+    "streamSettings": {
+      "network": "ws",
+      "wsSettings": {
+        "path": "/cloud-compute"
+      }
+    }
+  }],
+  "outbounds": [{
+    "protocol": "freedom"
+  }]
+}
+
